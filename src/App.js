@@ -1,5 +1,6 @@
 import "./App.css";
 import Search from "./components/search/search";
+// console.log(process.env);
 
 function App() {
 
