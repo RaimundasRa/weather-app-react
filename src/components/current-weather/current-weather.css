@@ -63,3 +63,10 @@
   font-weight: 600;
   font-size: 12px;
 }
+
+.parameter-label.top {
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 4px;
+}
