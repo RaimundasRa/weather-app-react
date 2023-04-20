@@ -14,6 +14,9 @@ const CurrentWeather = () => {
         <p className='temperature'>15°C</p>
         <div className='details'>
           <div className='parameter-row'>
+            <span className='parameter-label top'>Details</span>
+          </div>
+          <div className='parameter-row'>
             <span className='parameter-label'>Feels like</span>
             <span className='parameter-value'>17°C</span>
           </div>
