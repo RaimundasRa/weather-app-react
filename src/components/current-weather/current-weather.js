@@ -6,7 +6,7 @@ const CurrentWeather = ({ data }) => {
       <div className='top'>
         <div className=''>
           <p className='city'>{data.city}</p>
-          <p className='weather-description'>{data.weather[0].description}</p>
+          <p className='weather-description'>{data.weather[0].description.toUpperCase()}</p>
         </div>
         <img alt='weather' className='weather-icon' src={`icons/${data.weather[0].icon}.png`} />
       </div>
